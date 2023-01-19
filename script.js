@@ -43,13 +43,6 @@ const getSuggestions = async (num) => {
     });
     newDiv.appendChild(newImage);
     pokemonList.appendChild(newDiv);
-
-    //console.log(
-    // data.sprites.versions['generation-iii'].hasOwnProperty(
-    //   'firered-leafgreen'
-    //)
-    //);
-    // console.log(data.sprites.versions['generation-ii'].gold.front_default);
   } catch (error) {
     console.log(error);
   }
@@ -58,5 +51,4 @@ window.onload = function () {
   for (let i = 1; i < 152; i++) {
     getSuggestions(i);
   }
-  // getSuggestions();
 };
