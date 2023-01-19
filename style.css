@@ -1,0 +1,54 @@
+body {
+  background-color: rgb(34, 34, 34);
+}
+.actionContainer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -200px;
+  margin-left: -200px;
+  width: 400px;
+  height: 400px;
+  overflow: scroll;
+
+  background-color: rgb(220, 220, 220);
+}
+#pokemonList {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 100%;
+
+  background-color: blue;
+}
+
+.listImgContainer {
+  border: 1px solid black;
+  text-align: center;
+  width: 150px;
+  height: 80px;
+  margin-bottom: 10px;
+}
+.listImgContainer img {
+  border: 1px solid black;
+  width: 70px;
+  height: 70px;
+}
+.battleArena {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+  background-color: green;
+  border: 2px solid black;
+}
+.enemyBox {
+  height: 20px;
+  background-color: red;
+}
+.playerBox {
+  height: 20px;
+  background-color: blue;
+}
